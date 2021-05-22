@@ -15,6 +15,8 @@ function convertFahrToCelsius(tempInFahrenheit) {
   }
 }
 
+console.log(convertFahrToCelsius(2));
+
 function checkYuGiOh(n) {
   if (!Number(n)) {
     return `invalid parameter: ${n}`;
@@ -48,3 +50,5 @@ function checkYuGiOh(n) {
   }
   return JSON.stringify(arrayOfNumbers);
 }
+
+console.log(checkYuGiOh(10));
